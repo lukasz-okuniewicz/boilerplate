@@ -1,0 +1,53 @@
+{
+  "name": "webpack-es6-boilerplate",
+  "version": "1.0.1",
+  "author": "Adam",
+  "description": "A delightfully Webpack ES6 Boilerplate",
+  "license": "MIT",
+  "keywords": [
+    "webpack",
+    "boilerplate",
+    "es6",
+    "babel",
+    "eslint"
+  ],
+  "bugs": {
+    "url": "https://github.com/jluccisano/webpack-es6-boilerplate/issues",
+    "email": "joseph.luccisano@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jluccisano/webpack-es6-boilerplate.git"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack serve --config conf/webpack.dev.js",
+    "build": "webpack --config conf/webpack.prod.js",
+    "lint": "eslint --ext .js .",
+    "lint:fix": "eslint --ext .js . --fix"
+  },
+  "devDependencies": {
+    "@babel/core": "7.22.10",
+    "@babel/preset-env": "7.22.10",
+    "babel-loader": "9.1.3",
+    "clean-webpack-plugin": "4.0.0",
+    "copy-webpack-plugin": "11.0.0",
+    "css-loader": "6.8.1",
+    "eslint": "8.47.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-import": "2.28.1",
+    "eslint-plugin-prettier": "5.0.0",
+    "html-webpack-plugin": "5.5.3",
+    "mini-css-extract-plugin": "2.7.6",
+    "prettier": "3.0.2",
+    "style-loader": "3.3.3",
+    "webpack": "5.88.2",
+    "webpack-cli": "5.1.4",
+    "webpack-dev-server": "4.15.1"
+  },
+  "dependencies": {
+    "@pixi/sound": "4.4.1",
+    "pixi.js": "6.5.10"
+  }
+}
