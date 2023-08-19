@@ -1,6 +1,6 @@
 # Webpack ES6 boilerplate
 
-A minimalistic Webpack 2 ES6 boilerplate project.
+A minimalistic Webpack ES6 boilerplate project.
 
 ## Prerequisites
 
@@ -34,7 +34,7 @@ A minimalistic Webpack 2 ES6 boilerplate project.
 
 ## Licence
 
-_webpack-es6-boilerplate_ is available under MIT.
+_boilerplate_ is available under MIT.
 
 [npm]: https://img.shields.io/badge/npm-6.14.16-blue.svg
 [npm-url]: https://npmjs.com/
